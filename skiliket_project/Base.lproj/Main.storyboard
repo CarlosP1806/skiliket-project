@@ -338,6 +338,274 @@
             <point key="canvasLocation" x="4635.8778625954201" y="-1678.1690140845071"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="jUJ-TJ-rXC">
+            <objects>
+                <viewController id="Pb0-nf-I8P" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QJW-T0-tkd">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NetStatSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="iNw-qg-e98">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gR4-bf-d4y">
+                                <rect key="frame" x="16" y="743" width="75" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="gMp-UM-1gc" kind="show" id="392-P7-Of6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJv-8D-Fil">
+                                <rect key="frame" x="115" y="743" width="75" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="w33-d1-NfT" kind="show" id="Rjh-o5-MoO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgG-ZP-1yX">
+                                <rect key="frame" x="16" y="178" width="110" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="Kwb-yP-PZ7" kind="show" id="9ZU-Hp-fle"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UQX-tT-m4T">
+                                <rect key="frame" x="141" y="178" width="110" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="Vb7-sN-en0" kind="show" id="IFx-M9-4vp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TCK-wm-bmq">
+                                <rect key="frame" x="50" y="430" width="284" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="gkL-32-asd" kind="show" id="7B1-mT-zRf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xK9-5l-cof"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="uVF-6S-evU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HSs-Fn-1pJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4617.5572519083971" y="-3156.3380281690143"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3oX-xS-Jx3">
+            <objects>
+                <viewController id="gkL-32-asd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="muf-vA-OtR">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SwtichViewConnect" translatesAutoresizingMaskIntoConstraints="NO" id="Vyy-Pv-R3Y">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r3N-8U-nmA">
+                                <rect key="frame" x="146" y="195" width="101" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="jLI-5D-WfG" kind="show" id="Bpp-9W-r6g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0wR-CX-f2p">
+                                <rect key="frame" x="276" y="195" width="101" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="7xt-sD-Uk9" kind="show" id="XOO-6c-wLQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GRE-8a-6rP">
+                                <rect key="frame" x="16" y="736" width="68" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="gMp-UM-1gc" kind="show" id="nCB-Nv-QtF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cf8-u5-GIa">
+                                <rect key="frame" x="114" y="736" width="68" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="w33-d1-NfT" kind="show" id="cHV-bp-f9G"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TH-1j-exB">
+                                <rect key="frame" x="309" y="736" width="68" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="Pb0-nf-I8P" kind="show" id="CfA-Lb-Zz4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eNI-cb-0dW"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fZd-3I-7sG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ocn-sZ-TDq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5571.7557251908393" y="-3156.3380281690143"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dR5-KF-gsw">
+            <objects>
+                <viewController id="jLI-5D-WfG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CK9-Na-Dj7">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SwitchViewPerf" translatesAutoresizingMaskIntoConstraints="NO" id="2wB-vt-s1m">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fXY-Fx-Tbz">
+                                <rect key="frame" x="16" y="734" width="65" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="gMp-UM-1gc" kind="show" id="TYQ-yg-B6M"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z3J-zg-YsR">
+                                <rect key="frame" x="115" y="734" width="65" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="w33-d1-NfT" kind="show" id="hjs-Ds-o4N"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPn-IG-J3J">
+                                <rect key="frame" x="312" y="734" width="65" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="Pb0-nf-I8P" kind="show" id="UEx-wc-lan"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HVJ-HS-CCO">
+                                <rect key="frame" x="16" y="197" width="104" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="gkL-32-asd" kind="show" id="pVY-or-9xD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CPh-CA-i8k">
+                                <rect key="frame" x="289" y="197" width="88" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="7xt-sD-Uk9" kind="show" id="hfW-o9-bMJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ihK-Gh-UGt"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5Hu-FC-9Vj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dgt-1N-PXO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6461.8320610687024" y="-3156.3380281690143"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pPv-5v-9F1">
+            <objects>
+                <viewController id="7xt-sD-Uk9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3cJ-xq-vb0">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SwitchViewSec" translatesAutoresizingMaskIntoConstraints="NO" id="Yrq-7j-13z">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MBJ-ng-Dym">
+                                <rect key="frame" x="23" y="737" width="54" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="gMp-UM-1gc" kind="show" id="4sb-M5-i2J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lbh-gU-aTr">
+                                <rect key="frame" x="122" y="737" width="54" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="w33-d1-NfT" kind="show" id="UX4-9c-ATN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6nA-0c-m7y">
+                                <rect key="frame" x="317" y="737" width="54" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="Pb0-nf-I8P" kind="show" id="IJk-6c-Z2f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QnY-pD-c17">
+                                <rect key="frame" x="23" y="194" width="97" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="gkL-32-asd" kind="show" id="qb5-9r-jUx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lFJ-Sa-w0M">
+                                <rect key="frame" x="155" y="194" width="97" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="jLI-5D-WfG" kind="show" id="Ygn-Uo-oHA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2Z7-YZ-7mp"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="koa-2F-X0d"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sUP-Xu-Mf7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7296.9465648854957" y="-3156.3380281690143"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="EQt-04-BZi">
             <objects>
                 <viewController id="Vb7-sN-en0" sceneMemberID="viewController">
@@ -383,6 +651,15 @@
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
                                     <segue destination="Ta8-8l-do3" kind="show" id="ghy-PG-eJz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yoc-lw-y43">
+                                <rect key="frame" x="276" y="169" width="94" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="Pb0-nf-I8P" kind="show" id="VCP-Ny-R7I"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1097,15 +1374,19 @@
     <inferredMetricsTieBreakers>
         <segue reference="VmW-AR-Kbo"/>
         <segue reference="zv2-Gm-Inh"/>
-        <segue reference="0sQ-J2-i2P"/>
+        <segue reference="UX4-9c-ATN"/>
         <segue reference="F1V-aH-ITk"/>
         <segue reference="bih-qS-K6q"/>
         <segue reference="ep4-D0-Gyp"/>
         <segue reference="TDw-21-ajk"/>
-        <segue reference="drW-bv-saJ"/>
-        <segue reference="nJc-EC-ht7"/>
+        <segue reference="ghy-PG-eJz"/>
+        <segue reference="IFx-M9-4vp"/>
+        <segue reference="hfW-o9-bMJ"/>
+        <segue reference="Ygn-Uo-oHA"/>
+        <segue reference="qb5-9r-jUx"/>
+        <segue reference="IJk-6c-Z2f"/>
         <segue reference="JN3-vE-xFQ"/>
-        <segue reference="g60-lr-43H"/>
+        <segue reference="4sb-M5-i2J"/>
         <segue reference="snl-2U-dWk"/>
         <segue reference="6nx-cJ-yUJ"/>
     </inferredMetricsTieBreakers>
@@ -1118,6 +1399,7 @@
         <image name="MainNewsView" width="578" height="1094"/>
         <image name="MainProjectView" width="586" height="1078"/>
         <image name="NetStatHosts" width="1582" height="3192"/>
+        <image name="NetStatSwitch" width="1570" height="3196"/>
         <image name="NetStatusRout" width="1574" height="3154"/>
         <image name="NewsView" width="744" height="1276"/>
         <image name="NewsViewBottom" width="514" height="874"/>
@@ -1129,6 +1411,9 @@
         <image name="SelectLoginMenu" width="594" height="1084"/>
         <image name="ShareArticleModal" width="594" height="1014"/>
         <image name="SignupMenu" width="586" height="1098"/>
+        <image name="SwitchViewPerf" width="1566" height="3014"/>
+        <image name="SwitchViewSec" width="1562" height="3012"/>
+        <image name="SwtichViewConnect" width="1568" height="3018"/>
         <image name="WriteArticleView" width="574" height="1038"/>
         <image name="createProject" width="608" height="1138"/>
         <image name="createReport" width="604" height="1136"/>
