@@ -167,6 +167,15 @@
                                     <segue destination="2X5-UJ-Cp9" kind="show" id="ZSn-db-vBK"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgz-jn-SYT">
+                                <rect key="frame" x="308" y="59" width="69" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="ESN-UJ-8Iz" kind="show" id="98V-oE-823"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ov9-yQ-leu"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -207,6 +216,59 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tfa-kA-zQx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5417.5572519083971" y="-290.14084507042253"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Jce-53-ddg">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="ESN-UJ-8Iz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q7X-yX-zM4">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ProfileView" translatesAutoresizingMaskIntoConstraints="NO" id="1Nt-2V-0Kq">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4xY-eW-go2">
+                                <rect key="frame" x="121" y="595" width="165" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="Xq3-GK-gZd" kind="show" id="beX-O8-qBk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="BZz-uz-0xv"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="PF2-1z-LhZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AeB-Fa-c0z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3101.5267175572517" y="-981.69014084507046"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="so6-vt-cgb">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="Xq3-GK-gZd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fG5-9X-fPB">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EditProfileView" translatesAutoresizingMaskIntoConstraints="NO" id="xVY-lQ-R4I">
+                                <rect key="frame" x="0.0" y="103" width="393" height="749"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rTQ-QN-my7"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Fcf-Ma-vmr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IB7-q5-0eW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3933.5877862595416" y="-982.3943661971831"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="CZK-mP-rZ2">
@@ -309,6 +371,15 @@
                                     <segue destination="gMp-UM-1gc" kind="show" id="g60-lr-43H"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ndM-ge-Pe7">
+                                <rect key="frame" x="278" y="650" width="87" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="Hel-oQ-lMR" kind="show" id="f91-y8-Gcd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nR5-Gz-18u"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -349,6 +420,28 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J5H-v0-rGr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5417.5572519083971" y="538.73239436619724"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ZgD-lH-JBa">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="Hel-oQ-lMR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RfF-Tt-70e">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WriteArticleView" translatesAutoresizingMaskIntoConstraints="NO" id="KOa-QS-Jv2">
+                                <rect key="frame" x="0.0" y="103" width="393" height="749"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yPT-eP-i0j"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="wM3-Mq-J49"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VmE-dC-3Ol" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5417.5572519083971" y="1206.3380281690143"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="1rx-hm-LMA">
@@ -481,15 +574,18 @@
         <segue reference="6nx-cJ-yUJ"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="EditProfileView" width="370" height="648"/>
         <image name="LoginMenu" width="584" height="1090"/>
         <image name="MainNewsView" width="578" height="1094"/>
         <image name="MainProjectView" width="586" height="1078"/>
         <image name="NewsView" width="744" height="1276"/>
         <image name="NewsViewBottom" width="514" height="874"/>
+        <image name="ProfileView" width="370" height="668"/>
         <image name="ReportArticleModal" width="590" height="1008"/>
         <image name="SelectLoginMenu" width="594" height="1084"/>
         <image name="ShareArticleModal" width="594" height="1014"/>
         <image name="SignupMenu" width="586" height="1098"/>
+        <image name="WriteArticleView" width="574" height="1038"/>
         <image name="createProject" width="608" height="1138"/>
         <image name="createReport" width="604" height="1136"/>
         <image name="viewProject" width="566" height="1052"/>
