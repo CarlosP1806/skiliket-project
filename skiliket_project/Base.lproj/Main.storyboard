@@ -362,6 +362,24 @@
                                 <rect key="frame" x="0.0" y="112" width="393" height="706"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JxG-l4-n6h">
+                                <rect key="frame" x="245" y="383" width="62" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="vs9-Ig-1Ve" kind="show" id="XBg-3x-4Id"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A41-e4-aGv">
+                                <rect key="frame" x="162" y="383" width="54" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="Oyn-da-uBO" kind="show" id="yAI-yw-y3M"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zIX-VQ-M0s"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -371,6 +389,50 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PZv-wZ-yb6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6272.5190839694651" y="538.73239436619724"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zee-7k-qNU">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="vs9-Ig-1Ve" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="I9L-l6-Bns">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ReportArticleModal" translatesAutoresizingMaskIntoConstraints="NO" id="dcM-my-x8r">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8qT-kq-4J9"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="au8-gh-gLq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hCt-B2-IqR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7296.9465648854957" y="282.3943661971831"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="s4O-fS-JDR">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="Oyn-da-uBO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Jy-6u-YuP">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ShareArticleModal" translatesAutoresizingMaskIntoConstraints="NO" id="3bO-AC-XHC">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Wqk-3K-50G"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SrL-Fo-X7V"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fya-lv-nYV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7296.9465648854957" y="1019.7183098591549"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="khk-pn-vK1">
@@ -424,7 +486,9 @@
         <image name="MainProjectView" width="586" height="1078"/>
         <image name="NewsView" width="744" height="1276"/>
         <image name="NewsViewBottom" width="514" height="874"/>
+        <image name="ReportArticleModal" width="590" height="1008"/>
         <image name="SelectLoginMenu" width="594" height="1084"/>
+        <image name="ShareArticleModal" width="594" height="1014"/>
         <image name="SignupMenu" width="586" height="1098"/>
         <image name="createProject" width="608" height="1138"/>
         <image name="createReport" width="604" height="1136"/>
