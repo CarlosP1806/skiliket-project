@@ -948,7 +948,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="viewProject" translatesAutoresizingMaskIntoConstraints="NO" id="pDR-Eh-cdJ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="viewProjectV2" translatesAutoresizingMaskIntoConstraints="NO" id="pDR-Eh-cdJ">
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -970,6 +970,24 @@
                                     <segue destination="fTc-9D-nHm" kind="show" id="2Lu-jO-YMO"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3b-2A-7xS">
+                                <rect key="frame" x="210" y="330" width="110" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="KZ8-L6-Xhe" kind="show" id="PYC-7i-UKG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tc4-Jo-7a9">
+                                <rect key="frame" x="286" y="270" width="83" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="jg0-fq-8D6" kind="show" id="Yex-Zf-39Z"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aD0-rG-rt6"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -978,7 +996,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Zj-nu-zeH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6121" y="-20"/>
+            <point key="canvasLocation" x="6119.8473282442746" y="-20.422535211267608"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="XYT-pa-6c0">
@@ -1016,7 +1034,7 @@
             <objects>
                 <viewController id="KZ8-L6-Xhe" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="i5T-zL-Ybh">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="seeReports" translatesAutoresizingMaskIntoConstraints="NO" id="NpW-02-Vjw">
@@ -1027,6 +1045,7 @@
                         <viewLayoutGuide key="safeArea" id="Kec-Sn-bGS"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="N3s-3C-SS9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zvk-rf-8wz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1223,17 +1242,27 @@
             <objects>
                 <viewController id="jg0-fq-8D6" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oHc-ym-L2I">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="deleteProjectV2" translatesAutoresizingMaskIntoConstraints="NO" id="elJ-04-kft">
                                 <rect key="frame" x="-44" y="59" width="477" height="759"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NVJ-Py-6Ff">
+                                <rect key="frame" x="119" y="467" width="150" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="2X5-UJ-Cp9" kind="show" id="z0H-QK-8ws"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="H7F-tq-2Gj"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ML9-JY-UqA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bxa-QW-uHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1414,6 +1443,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="2Lu-jO-YMO"/>
         <segue reference="VmW-AR-Kbo"/>
         <segue reference="zv2-Gm-Inh"/>
         <segue reference="UX4-9c-ATN"/>
@@ -1461,7 +1491,7 @@
         <image name="createReport" width="604" height="1136"/>
         <image name="deleteProjectV2" width="534" height="1064"/>
         <image name="seeReports" width="576" height="1086"/>
-        <image name="viewProject" width="566" height="1052"/>
+        <image name="viewProjectV2" width="548" height="1082"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
