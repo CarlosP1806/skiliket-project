@@ -514,7 +514,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
-                                    <segue destination="w33-d1-NfT" kind="show" id="yXn-hj-aye"/>
+                                    <segue destination="w33-d1-NfT" kind="show" id="dyt-yV-uCt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AVW-33-KUH">
@@ -573,6 +573,15 @@
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
                                     <segue destination="67c-YL-Kc9" kind="show" id="xTE-yf-inT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rUc-LB-wta">
+                                <rect key="frame" x="127" y="754" width="53" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="w33-d1-NfT" kind="show" id="jKm-Dp-Hro"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1556,7 +1565,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Woa-cF-KmH">
-                                <rect key="frame" x="108" y="668" width="179" height="49"/>
+                                <rect key="frame" x="107" y="678" width="179" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
@@ -1580,6 +1589,33 @@
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
                                     <segue destination="jg0-fq-8D6" kind="show" id="Yex-Zf-39Z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJV-Tl-Nbn">
+                                <rect key="frame" x="123" y="763" width="53" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="w33-d1-NfT" kind="show" id="JzM-Vs-90l"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rja-CO-qit">
+                                <rect key="frame" x="216" y="761" width="59" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="wlj-oZ-Ckt" kind="show" id="Ttc-Ni-gVS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ia-vk-bhU">
+                                <rect key="frame" x="319" y="761" width="53" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="Kwb-yP-PZ7" kind="show" id="BBf-yq-W4w"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2111,7 +2147,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="VmW-AR-Kbo"/>
         <segue reference="zv2-Gm-Inh"/>
-        <segue reference="gwZ-An-wTf"/>
+        <segue reference="jKm-Dp-Hro"/>
         <segue reference="z0H-QK-8ws"/>
         <segue reference="ShQ-xD-umT"/>
         <segue reference="LO7-S7-i1e"/>
@@ -2122,10 +2158,10 @@
         <segue reference="Ygn-Uo-oHA"/>
         <segue reference="7B1-mT-zRf"/>
         <segue reference="VCP-Ny-R7I"/>
-        <segue reference="NtU-Qo-i6Q"/>
-        <segue reference="pV1-90-7yi"/>
-        <segue reference="7u1-le-i7X"/>
-        <segue reference="xCN-Da-MEh"/>
+        <segue reference="5d7-SH-HLd"/>
+        <segue reference="xTE-yf-inT"/>
+        <segue reference="A3S-Uw-s7f"/>
+        <segue reference="WLf-rK-GT1"/>
         <segue reference="snl-2U-dWk"/>
         <segue reference="6nx-cJ-yUJ"/>
     </inferredMetricsTieBreakers>
@@ -2171,7 +2207,7 @@
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
